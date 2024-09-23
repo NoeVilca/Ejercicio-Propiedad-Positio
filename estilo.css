@@ -1,0 +1,42 @@
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    position: relative;
+    background-color: lightpink;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{                           /*muestra los botones con la disposición horizontal para notebook */
+    display: flex;
+    justify-content: right;
+    margin-top:0;
+    padding: 0;
+  
+} 
+  
+li {                     /*determina la propiedad de cada botón*/
+    display: block;
+    background: rgb(242, 218, 185);
+    margin: 20px;
+    padding: 10px;
+    list-style: none;
+    width: 200px;
+    text-align: center;
+}
+  
+/*Estilo cuando el mouse pasa encima de cada link del menu*/
+li:hover {                        /*determina la propiedad de cada botón cuando se posiciona encima*/
+    filter: brightness(110%);
+}
+
+/*logo*/
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
